@@ -5,52 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About app</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="about.css" type="text/css">
-    <style>
-        img {
-          border-radius: 50%;
-        }
-        
-        </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-     <!-- <img src="CMC Logo.png" class="img-fluid nav-logo-mobile" alt="Company Logo"> -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <div class="container">
-      	<img src="CMC Logo.png" class="img-fluid nav-logo-desktop" alt="Company Logo">
-        <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="index.html">Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link"  href="about.html">About <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <li class="nav-item nav-custom-link btn btn-demo-small">
-            <a class="nav-link" href="contact.html" >Contact Us <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <!-- <div class="nav">
-            <ul class="items">
-        
-                <li class="item"><a href="https://www.google.com/">Home</a></li>
-                <li class="item"><a href="https://www.google.com/">About</a></li>
-                <li class="item"><a href="https://www.google.com/">Contact us</a></li>
-            </ul>
-        </div> -->
+     <!-- N A V B A R -->
+     <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon ion-md-menu"></span>
+      </button>
+      <img src="CMC Logo.png" class="img-fluid nav-logo-mobile" alt="Company Logo">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+          <img src="CMC Logo.png" class="img-fluid nav-logo-desktop" alt="Company Logo">
+          <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+  
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="index.html">Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link"  href="about.html">About <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            </li>
+            <li class="nav-item nav-custom-link btn btn-demo-small">
+              <a class="nav-link" href="contact.html" >Contact Us <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            </li>
+            <!-- <div class="nav">
+              <ul class="items">
           
-        </ul>
+                  <li class="item"><a href="https://www.google.com/">Home</a></li>
+                  <li class="item"><a href="https://www.google.com/">About</a></li>
+                  <li class="item"><a href="https://www.google.com/">Contact us</a></li>
+              </ul>
+          </div> -->
+            
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- E N D  N A V B A R -->
+    </nav>
    
-
-    <h1>
-        <b><u>CountMyCrunch</u></b>
-    </h1>
+<div>
+  <h1 class="heading">
+    <b><u>CountMyCrunch</u></b>
+</h1>
+</div>
+  
     <div class="sas">
 
-        <p><b>CountMyCrunch</b>, is an app wbich helps a desk to get well in a personal way of his/her life. It is an app which helps the user to built his/her unhealthy or boring Life to a amazing, perfect and healthy life.<br>
+        <p><b>CountMyCrunch</b>, is an app which helps a desk to get well in a personal way of his/her life. It is an app which helps the user to built his/her unhealthy or boring Life to a amazing, perfect and healthy life.<br>
 
             <h3><u>Purpose:</u></h3>
         <ul>
@@ -60,9 +73,9 @@
             </li>
             <li>CountMyCrunch will also provide some simple guidelines for gaining or losing weight.
             </li>
-            <li>CountMyCrunch will also provide data for all kinds of fruit! You can use Fruityvice to find out interesting information about fruit and educate yourself. 
+            <li>CountMyCrunch will also provide data for all kinds of fruit! You can use FoodBie to find out interesting information about Recipes and educate yourself. 
             </li>
-            <li>Finally it has a fitness tracking capability which will help users to keep track of recent BMI and calorie measurements used by Application10.
+            <li>Finally it has a fitness tracking capability which will help users to keep track of recent calorie measurements used by our Application.
             </li>
         </ul>
         
@@ -81,10 +94,10 @@
     
              <li><b><i>Search options:</i></b></li><p>As you know <b>CountMyCrunch</b> is based on Health, so a user can search his/her healthy/diet on <b>Foodie</b> part of <b>CountMyCrunch</b>'s Dashboard. The ability of search in <b>CountMyCrunch</b> is possible when the user's internet is turned on so please check your network connection at the time of searching.</p>
     
-             <li><b><i> Bright and bold colour schemes:</i></b></li><p>The color combinations of <b>CountMyCrunch</b> is very morol that you will never be bored by regular use. In <b>CountMyCrunch</b>, we have pay attention on the colors, which looks more stylish and professional to following users. </p>
+             <li><b><i> Bright and bold Colour schemes:</i></b></li><p>The color combinations of <b>CountMyCrunch</b> is very morol that you will never be bored by regular use. In <b>CountMyCrunch</b>, we have pay attention on the colors, which looks more stylish and professional to following users. </p>
     
              <li><b><i>Push notifications:</i></b></li><p>If you don't know at what time you should do your workout be healthy? or you are forgetting your workout time then don't worry about that because the app will reminds you about your workout time by giving you a reminder through notifications. <br>
-             You can set a reminder by clicking on the clock icon which on the buttom-right side of the screen.</p>
+             You can set a reminder by clicking on the clock icon which on the bottom-right side of the screen.</p>
         </ol></p>
     </div>
     
@@ -97,10 +110,10 @@
     <p><h2><b>Foodie:</b></h2>
         <h3>Get Recipe Information</h3>
         <p>Type a Recipe name to get full information about a recipe, such as ingredients, nutrition, diet and allergen information, etc</p>
-        If a user wants to eat healthy,protine and diet food like salad, vegetables, egg, chicken, etc. but in a different style. Then he can move towards this part of <b>CountMyCrunch</b> because in this part a user can search what helthy food he/she wants to eat. <br> E.g., If a user wants to eat chicken, egg, or salad. then the user only search the name of the food in the search bar the items which are made from that food will appear on the screen. Then the user can select the food item which he/she desires to eat, then the Food's Nutritional Chart, Instructions, Food ingrediants and Recepie will appear on the screen. Then, the user can make a healthy food and enjoy it in a healthy way. </p>
+        If a user wants to eat healthy,protein and diet food like salad, vegetables, egg, chicken, etc. but in a different style. Then he can move towards this part of <b>CountMyCrunch</b> because in this part a user can search what helthy food he/she wants to eat. <br> E.g., If a user wants to eat chicken, egg, or salad. then the user only search the name of the food in the search bar the items which are made from that food will appear on the screen. Then the user can select the food item which he/she desires to eat, then the Food's Nutritional Chart, Instructions, Food ingrediants and Recepie will appear on the screen. Then, the user can make a healthy food and enjoy it in a healthy way. </p>
     <p><h2><b>Calorie Tracker:</b></h2> In this part of <b>CountMyCrunch</b> you can track your fitness progression. After saving your fitness details in calorie counter of <b>CountMyCrunch</b>, you can open the calorie tracker part to see the saved progression.</p>
     <p><h2><b>Health Vlogs:</b></h2> If an user wants to know about some tips or about any healthy diet then he/she can prefer Health Vlogs of <b>CountMyCrunch</b>. In this you can see many Fitness Articles which are prepared or advised by the experts.</p>
-    <p><h2><b>Chromometer:</b></h2> There is also a time tracker which will help the user alot. If an user wants to track his/her exercise time then this feature will help alot.</p>
+    <p><h2><b>Chronometer:</b></h2> There is also a time tracker which will help the user alot. If an user wants to track his/her exercise time then this feature will help a lot.</p>
 
 
     </div>

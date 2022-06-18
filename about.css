@@ -45,9 +45,18 @@
     margin: auto;
     width: 50%;
     padding: 10px;
+		font-family: 'Merriweather', serif;
 }
 .tools{
     margin: auto;
     width: 50%;
     padding: 10px;
+		font-family: 'Merriweather', serif;
+}
+
+.heading{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	font-family: 'Merriweather', serif;
 }
