@@ -423,6 +423,31 @@ section {
 	margin-bottom: 0px;
 }
 
+
+
+/* ===============================================
+Block Alignment
+==================================================
+ */
+ .BMIblock {
+	width:max-content;
+	height: min-content;
+}
+
+#block1 {
+	float:left;
+}
+
+#block2
+{
+	float:right;
+	background-color: #F5F5F5;
+	margin: 10px 20px;
+	padding: 20px;
+	width: 180px;
+}
+
+
 /* ==============================================
    9. Footer
 ===============================================*/
