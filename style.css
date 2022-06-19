@@ -229,25 +229,126 @@ section {
     letter-spacing: .05em;
 }
 
-
-#marketing p {
-	font-size: 20px;
-    font-weight: 300;
-    color: #8da2b5;
-    margin-bottom: 0px;
-    padding: 0px;
+.content-box {
+	padding: 60px 20px;
 }
 
-#marketing span {
+
+
+
+
+/* ==============================================
+   Innner Divs
+===============================================*/
+
+#BMI1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#BMI1 span{
 	font-weight: 400;
 	color: #0095f7;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
 
-.content-box {
+.content-box1 {
 	padding: 60px 20px;
+	font-family: 'Mali', cursive;
 }
+
+#CALORIE1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#CALORIE1 span{
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+
+
+
+#FOODIE1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#FOODIE1 span{
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+
+
+#TRACKER1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#TRACKER1 span{
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+
+
+#HVLOGS1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#HVLOGS1 span{
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+
+#CHRONOMETER1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#CHRONOMETER1 span{
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+
+
+
+
+
 
 /* ==============================================
    6. Testimonials
