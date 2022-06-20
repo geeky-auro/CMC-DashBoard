@@ -292,11 +292,6 @@ section {
 }
 
 
-
-
-
-
-
 #FOODIE1 p{
 	font-size: 20px;
 	font-weight: 300;
@@ -378,6 +373,12 @@ section {
 	color: #0095f7;
 	text-transform: uppercase;
 	letter-spacing: .05em;
+}
+
+#CHRONOMETER1:hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
 }
 
 
