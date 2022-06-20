@@ -3,6 +3,8 @@ body {
 	color: #3a3f52;
 }
 
+
+
 h2 {
 	font-size: 44px;
 	font-weight: 700;
@@ -259,6 +261,13 @@ section {
 .content-box1 {
 	padding: 60px 20px;
 	font-family: 'Mali', cursive;
+	
+}
+
+#BMI1:hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
 }
 
 #CALORIE1 p{
@@ -275,6 +284,15 @@ section {
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
+
+#CALORIE1 :hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
+}
+
+
+
 
 
 
@@ -294,6 +312,12 @@ section {
 	letter-spacing: .05em;
 }
 
+#FOODIE1:hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
+}
+
 
 
 #TRACKER1 p{
@@ -311,6 +335,12 @@ section {
 	letter-spacing: .05em;
 }
 
+#TRACKER1 :hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
+}
+
 
 
 #HVLOGS1 p{
@@ -326,6 +356,12 @@ section {
 	color: #0095f7;
 	text-transform: uppercase;
 	letter-spacing: .05em;
+}
+
+#HVLOGS1 :hover{
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	transform: scale(1.04);
 }
 
 
