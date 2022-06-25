@@ -63,39 +63,45 @@
     <h1 class="brand"><span> i</span></h1>
     <div class="wrapper">
       <div class="company-info">
-        <h3>Acme Web Design</h3>
+        <h3>CountMyCrunch</h3>
         <ul>
-          <li><i class="fa fa-road"></i> 44 Something st</li>
-          <li><i class="fa fa-phone"></i> (555) 555-5555</li>
-          <li><i class="fa fa-envelope"></i> test@acme.test</li>
+          <li><i class="fa fa-road"></i>Berhampur, Odisha, India</li>
+          <li><i class="fa fa-phone"></i>8249696287</li>
+          <li><i class="fa fa-phone"></i>8280605767</li>
+          <li><i class="fa fa-envelope"></i>aurosaswat@gmail.com</li>
+          <li><i class="fa fa-envelope"></i>kaushikdakua05@gmail.com</li>
         </ul>
       </div>
       <div class="contact">
         <h3>Email Us</h3>
         <!-- @TODO - validation  -->
-        <form id="contactForm" action="https://formspree.io/f/myyoazqk" method="POST" target="_blank">
+        <form id="contactForm" action="https://formspree.io/f/mbjweaav" method="POST" target="_blank">
           <p>
             <label>Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" placeholder="Enter your Name..." required>
           </p>
-          <p>
+          <!-- <p>
             <label>Company</label>
             <input type="text" name="company" id="company">
-          </p>
-          <p>
-            <label>Email Address</label>
-            <input type="text" name="email" id="email">
-          </p>
+          </p> -->
+
           <p>
             <label>Phone Number</label>
-            <input type="text" name="phone" id="phone">
+            <input type="text" name="phone" id="phone" placeholder="Enter your Phone no...." required>
           </p>
+
+          <p class="full">
+            <label>Email Address</label>
+            <input type="text" name="email" id="email" placeholder="Enter your Email..." pattern=".+@globex\.com" size="30" required>
+          </p>
+          
           <p class="full">
             <label>Message</label>
-            <textarea name="message" rows="5" id="message"></textarea>
+            <textarea name="message" rows="5" id="message" placeholder="Enter your Message..." required></textarea>
           </p>
           <p class="full">
             <button type="submit">Submit</button>
+            
           </p>
         </form>
 
