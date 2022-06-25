@@ -436,7 +436,7 @@ section {
 }
 
 .rating {
-	background-color: #0095f7;
+	background-color: #f70000;
 	padding: 2px 12px;
 	border-radius: 50px;
 }
@@ -477,7 +477,7 @@ section {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: .1em;
-	color: #0095f7;
+	color: #f70000;
 }
 
 .pricing-box h6 {
@@ -516,7 +516,7 @@ section {
 
 .pricing-box i {
 	font-size: 20px;
-	color: #0095f7;
+	color: #f70000;
 	margin-right: 10px;
 }
 
@@ -553,7 +553,7 @@ section {
 
 #call-to-action .btn-regular {
 	background-color: #ffffff!important;
-	color: #0095f7!important;
+	color: #f70000!important;
 	padding: 15px 45px;
 }
 
@@ -585,6 +585,41 @@ Block Alignment
 	width: 180px;
 }
 
+/* --------------------- */
+/* .iflex-container {
+  display: flex;
+}
+
+.iflex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.center_dev{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+} */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.dev_container{
+	background-color: #b92626;
+}
 
 /* ==============================================
    9. Footer
@@ -635,7 +670,7 @@ footer i {
 }
 
 footer i:hover {
-	color: #0095f7;
+	color: #f70000;
 }
 
 footer small {
@@ -644,7 +679,7 @@ footer small {
 }
 
 .external-links {
-	color: #0095f7;
+	color: #0073f7;
 }
 
 /* ==============================================
@@ -670,7 +705,7 @@ footer small {
 
 	#call-to-action {
 		background-image: none;
-		background-color: #0095f7;
+		background-color: #570707;
 	}
 
 	footer {
