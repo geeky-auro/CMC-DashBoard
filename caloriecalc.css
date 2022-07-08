@@ -11,3 +11,10 @@
   margin-right: auto;
   width: 50%;
 }
+
+@media screen and (max-width: 500px) {
+  .container-i{
+    width: 100%;
+		padding: 5px;
+  }
+}
