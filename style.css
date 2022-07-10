@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #3a3f52;
@@ -853,3 +854,62 @@ footer small {
 		margin-left: 10px;
 	}
 }
+
+
+/* ================================= */
+
+
+
+.media-scroller{
+		display: grid;
+		grid-auto-flow:column;
+		grid-auto-columns:38%;
+		gap: var(--size-3);
+		padding: 0 var(--spacer) var(--spacer);
+		overflow-x: auto;
+		overscroll-behavior-inline: contain;
+}
+
+.media-element{
+	display: grid;
+	 padding: var(--_spacer);
+	 gap: var(--_spacer);
+	 background: var(--surface-2);
+	 border-radius: var(--radius-2);
+	 box-shadow: var(--shadow-2);
+}
+
+.media-element > img{
+	inline-size: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+.snaps-inline{
+	scroll-snap-type: inline mandatory ;
+	scroll-padding-inline: var(--_spacer,1rem);
+}
+
+.snaps-inline>*{
+	scroll-snap-align: start;
+
+}
+
+.center_it{
+	margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .media-scroller {
+		grid-auto-flow:none;
+		grid-auto-columns:100%;
+		gap: var(--size-3);
+		padding: 0 var(--spacer) var(--spacer);
+		overflow-x: auto;
+		overscroll-behavior-inline: contain;
+  }
+}
+
+
